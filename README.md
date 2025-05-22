@@ -171,27 +171,29 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 
 ### 5.5.1 COVA Admin
 
-#### 5.5.1.1 Default
+#### 5.5.1.1 Admin Default
 ![Admin Default](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Admin%20Default.png)
 #### 5.5.1.2 RFID check
-![RFID Check](link)
-![RFID Check Duplicate](link)
-#### 5.5.1.3 Form Check
-![Form Check](link)
-#### 5.5.1.4 Register
-![Register](link)
+![RFID Check](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/RFID%20Check.png)
+![RFID Check Fail](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/RFID%20Check%20Fail.png)
+![RFID Check Duplicate](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/RFID%20Check%20Duplicate.png)
+#### 5.5.1.3 Check Button
+![Check Button](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Check%20Button.png)
+#### 5.5.1.4 Register Button
+![Register Success](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Register%20Success.png)
+![Register Fail](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Register%20Fail.png)
 #### 5.5.1.3 Register Initialize
-![Register Initialize](link)
+![Register Initialize]([link](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Register%20Initialize.png)
 
 
 
 ### 5.5.2 COVA Jr Control
 
-#### 5.5.2.1 Default
+#### 5.5.2.1 Control Default
 ![Control Default](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Control%20Default.png)
 #### 5.5.2.2 Door Open
 ![Door Open](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Door%20Open.png)
-#### 5.5.2.3 Engine Start
+#### 5.5.2.3 Engine Start(On button)
 ![Engine Start](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Engine%20Start.png)
 #### 5.5.2.3 Headlight On
 ![Headlight On](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Headlight%20On.png)
@@ -367,24 +369,30 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 
 ## 9. Problems and Solutions
 
-- **문제**: 음주 센서 민감도 불안정  
-  **해결**: 5초간 평균값 측정 및 기준값 설정  
+문제: ESP에 너무 많은 테스크를 부여하여 하드웨어 한계에 도달
+해결: ESP를 시스템에서 제외하고, PC 간 TCP 통신 방식으로 대체
 
-- **문제**: StaleElement 예외  
-  **해결**: WebDriverWait, 재탐색 방식으로 해결
+문제: HTTP 통신 방식은 실시간성이 떨어져 제어에 지연 발생
+해결: 아두이노 ↔ PC 간에는 시리얼 통신, PC ↔ PC 간에는 TCP 통신을 적용하여 실시간성 확보
+
+문제: 아두이노 Uno 보드 하나로 모든 센서를 제어하고 통신을 처리하는 데 한계 발생
+해결: 센서는 아두이노 Mega가 담당하고, 모터는 아두이노 Uno가 담당하도록 하드웨어 역할 분리
 
 
 
 ## 10. Limitations
 
-- 지역 내 시스템 사용에 국한됨 (서울 한정)  
-- 모바일 제어 앱 미구현  
-- 실내외 상황 자동 판별은 미완성
+1.음주 측정 시 보다 정밀한 측정과 허위로 측정하는 것을 방지하는 방법 추가 필요
+2.추가적인 서비스를 위한 GPS,속도,가속도 센서를 사용한 데이터 추가 필요
+3.운전자의 개인 정보를 관리하는 서버의 보안 필요
+4.운전자의 운전 습관을 분석하기 위한 충분한 데이터 확보 필요
+5.초음파 센서값에 따른 모터 제어 실시간 응답 속도 향상 필요
+6.저품질의 센서 대신 고품질의 센서를 사용해 정확한 센서값 확보 필요
 
 
 
-## 11. Conclusion and Future Work
+## 11. Conclusion
+### Conclusion
+-스마트키를 통한 스마트 인증 시스템 제작 성공
+-실시간 센서 데이터 수집 및 저장 성공
 
-- 인증 및 판단 기반 제어 흐름 검증 완료  
-- 향후 웹 기반 관리 페이지, 실시간 주행 모니터링, 앱 연동 가능성 검토 중  
-- 차량 사고 상황 자동 신고 기능도 기획 예정
