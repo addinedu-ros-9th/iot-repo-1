@@ -172,7 +172,7 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 ### 5.5.1 COVA Admin
 
 #### 5.5.1.1 Default
-[Default](link)
+[Admin Default](link)
 #### 5.5.1.2 RFID Register and Browse
 [RFID Register and Browse](link)
 #### 5.5.1.3 Register Initialize
@@ -184,7 +184,7 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 ### 5.5.2 COVA Jr Control
 
 #### 5.5.2.1 Default
-[Default](link)
+[Control Default](link)
 #### 5.5.2.2 Door Open
 [Door Open](link)
 #### 5.5.2.3 Engine Start
