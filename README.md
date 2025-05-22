@@ -144,26 +144,26 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 ### 5.3 System Architecture
 
 #### 5.3.1 Hardware Architecture
- [HW_architecture](link)
+ ![HW_architecture](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/HW_architecture.png)
 
 #### 5.3.2 Software Architecture
- [SW_architecture](link)
+ ![SW_architecture](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/SW_architecture.png)
 
 
 ### 5.4 Scenario
 
 #### 5.4.1 RFID Register and Browse
-[RFID_Register and Browse](link)
+![RFID_Register and Browse](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/RFID%20Register%20and%20Browse.png)
 #### 5.4.2 Vehicle Authentication
-[Vehicle Authentication](link)
+![Vehicle Authentication](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Vehicle%20Authentication.png)
 #### 5.4.3 Shock and Temperature Management
-[Shock and Temperature Management](link)
+![Shock and Temperature Management](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Shock%20and%20Temperature%20Management.png)
 #### 5.4.4 Vehicle Control
-[Vehicle Control](link)
+![Vehicle Control](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Vehicle%20Control.png))
 #### 5.4.5 Headlight Control
-[Headlight Control](link)
+![Headlight Control](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Headlight%20Control.png)
 #### 5.4.6 Reverse Control Management
-[Reverse Control Management](link)
+![Reverse Control Management](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Reverse%20Control%20Management.png)
 
 
 
@@ -172,25 +172,27 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 ### 5.5.1 COVA Admin
 
 #### 5.5.1.1 Default
-[Admin Default](link)
+![Admin Default](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Admin%20Default.png)
 #### 5.5.1.2 RFID Register and Browse
-[RFID Register and Browse](link)
+![RFID Register and Browse](link)
 #### 5.5.1.3 Register Initialize
-[RFID Register Initialize](link)
+![RFID Register Initialize](link)
 #### 5.5.1.4 Duplicate Register
-[Duplicate Register](link)
+![Duplicate Register](link)
 
 
 ### 5.5.2 COVA Jr Control
 
 #### 5.5.2.1 Default
-[Control Default](link)
+![Control Default](link)
 #### 5.5.2.2 Door Open
-[Door Open](link)
+![Door Open](link)
 #### 5.5.2.3 Engine Start
-[Engine Start](link)
-#### 5.5.2.3 Reverse
-[Reverse](link)
+![Engine Start](link)
+#### 5.5.2.3 Headlight On
+![Headlight On](link)
+#### 5.5.2.4 Reverse
+![Reverse](link)
 
 
 
@@ -199,9 +201,9 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 ### 6.1 ER Diagram
 
 ### 6.1.1 Admin DB
-[Admin DB](link)
+![Admin DB](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Admin%20DB.png)
 ### 6.1.2 Vehicle DB
-[Vehicle DB](link)
+![Vehicle DB](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Vehicle%20DB.png)
 
 ## 7. Interface Specification
 
