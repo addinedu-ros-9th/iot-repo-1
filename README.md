@@ -4,12 +4,12 @@
 **RFID 기반 사용자 인증과 센서 진단을 통해  
 운전 가능 여부를 판단하고, 안전한 차량 제어를 실현하는 시스템입니다.**
 
-
+---
 
 ## 📽️ 시연 영상  
 [![demo](https://github.com/addinedu-ros-9th/iot-repo-1/raw/main/images/car.png)](https://youtu.be/b2M4o_Ry8Ds?si=9G2rbBmHO6FyefWP)
 
-
+---
 
 
 ## 🔑 핵심 기능 요약
@@ -20,7 +20,7 @@
 - **센서 데이터 기록**: 충격, 온도 등 센서값 DB 저장  
 - **GUI 기반 상태 출력**: 실시간 상태 표시  
 - **RFID 등록/조회 기능** : 사용자의 RFID카드를 등록하고 조회 
-
+---
 
 ## 📑 목차
 
@@ -42,13 +42,13 @@
 10. [Limitations](#10-limitations)  
 11. [Conclusion and Future Work](#11-conclusion-and-future-work)
 
-
+---
 
 ## 1. Overview
 
 COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 사용을 제어 및 기록**하는 시스템입니다.  
 아두이노 기반 센서와 RFID 인증 장치로 구성되며, 사용자 행동 기록 및 안전 상태를 종합적으로 판단합니다.
-
+---
 
 ## 2. Key Features
 
@@ -59,7 +59,7 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 - GUI 기반 실시간 시각 피드백
 - DB 연동 센서 기록
 
-
+---
 
 ## 3. Team Information
 
@@ -71,7 +71,7 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 | 이동연 | 팀원      | - Headlight 제어 기능 개발<br>- Reverse Alert 기능 개발<br>- Temperature 탐지 기능 개발<br>- 발표자료 제작<br>- Interface 명세서 작성 |
 | 이동훈 | 팀원      | - Motor Control 및 GUI 개발<br>- Shock 탐지 기능 개발<br>- 소프트웨어 통합<br>- System Architecture 문서 작성<br>- System / User Requirements 작성 |
 
-
+---
 
 ## 4. Development Environment
 
@@ -108,7 +108,7 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 | 형상 관리      | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) |
 | 협업 도구      | ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white) ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white) |
 
-
+---
 ## 5. System Design
 
 
@@ -200,7 +200,7 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 #### 5.5.2.4 Reverse
 ![Reverse](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Reverse.png)
 
-
+---
 
 ## 6. Database Design
 
@@ -210,6 +210,8 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 ![Admin DB](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Admin%20DB.png)
 ### 6.1.2 Vehicle DB
 ![Vehicle DB](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Vehicle%20DB.png)
+
+---
 
 ## 7. Interface Specification
 
@@ -344,6 +346,8 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 |---------------------|--------------|--------------|--------|---------|---------|--------------|---------------|----------------|---------------------|
 | Res_Admin_Sr_VF_01  | COVA Server  | COVA Admin   | 0xAA   | -       | -       | PASS / FAIL  | JSON String   | *              | 등록 여부 전송        |
 
+---
+
 ## 8. Test Cases
 
 | TC ID  | 주체     | 상호작용 대상            | 행동 (입력)                           | 예상 결과 (대상 포함)                                                              | 실제 결과 |
@@ -367,6 +371,7 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 | TC17   | 사용자   | COVA Jr Control          | S 키 입력 (후면 1m 이내 장애물)        | [COVA Jr Motor Control] 차량 후진, [COVA Jr Sensor Control] 경고음 시작 (거리 비례) | pass       |
 | TC18   | 사용자   | COVA Jr Control          | S 키 해제                              | [COVA Jr Motor Control] 차량 정지, [COVA Jr Sensor Control] 경고음 해제             | pass       |
 
+---
 ## 9. Problems and Solutions
 
 - **문제:** ESP에 너무 많은 테스크를 부여하여 하드웨어 한계에 도달  
