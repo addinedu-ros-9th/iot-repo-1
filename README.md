@@ -1,4 +1,5 @@
-# :car: COVA: 차량 인증 및 제어 시스템
+
+# COVA: 차량 인증 및 제어 시스템
 
 **RFID 기반 사용자 인증과 센서 진단을 통해  
 운전 가능 여부를 판단하고, 안전한 차량 제어를 실현하는 시스템입니다.**
@@ -6,9 +7,7 @@
 
 
 ## 📽️ 시연 영상  
-https://youtu.be/b2M4o_Ry8Ds
-https://www.youtube.com/watch?v=b2M4o_Ry8Ds
-[![COVA](https://img.youtube.com/vi/b2M4o_Ry8Ds/0.jpg)](https://www.youtube.com/watch?v=b2M4o_Ry8Ds)
+[demo](https://youtu.be/b2M4o_Ry8Ds?si=9G2rbBmHO6FyefWP)
 
 
 
@@ -24,23 +23,23 @@ https://www.youtube.com/watch?v=b2M4o_Ry8Ds
 
 ## 📑 목차
 
-1. [Overview](#overview)  
-2. [Key Features](#key-features)  
-3. [Team Information](#team-information)  
-4. [Development Environment](#development-environment)  
-5. [System Design](#system-design)  
-   - [User Requirements](#user-requirements)  
-   - [System Requirements](#system-requirements)  
-   - [System Architecture](#system-architecture)  
-   - [Scenario](#scenario)  
-   - [GUI](#gui)  
-6. [Database Design](#database-design)  
-   - [ER Diagram](#er-diagram)  
-7. [Interface Specification](#interface-specification)  
-8. [Test Cases](#test-cases)  
-9. [Problems and Solutions](#problems-and-solutions)  
-10. [Limitations](#limitations)  
-11. [Conclusion and Future Work](#conclusion-and-future-work)  
+1. [Overview](#1-overview)  
+2. [Key Features](#2-key-features)  
+3. [Team Information](#3-team-information)  
+4. [Development Environment](#4-development-environment)  
+5. [System Design](#5-system-design)  
+   - [User Requirements](#51-user-requirements)  
+   - [System Requirements](#52-system-requirements)  
+   - [System Architecture](#53-system-architecture)  
+   - [Scenario](#54-scenario)  
+   - [GUI](#55-gui)  
+6. [Database Design](#6-database-design)  
+   - [ER Diagram](#61-er-diagram)  
+7. [Interface Specification](#7-interface-specification)  
+8. [Test Cases](#8-test-cases)  
+9. [Problems and Solutions](#9-problems-and-solutions)  
+10. [Limitations](#10-limitations)  
+11. [Conclusion and Future Work](#11-conclusion-and-future-work)
 
 
 
@@ -99,15 +98,14 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 
 ### 4.3 개발 도구 및 기술 스택
 
-| 분류           | 사용 기술 |
-|----------------|-----------|
-| 개발 환경      | Ubuntu, Visual Studio Code              |
-| 언어           | C++, Python                             |
-| 서버 및 백엔드 | Flask                                    |
-| 데이터베이스   | MySQL                                    |
-| 형상 관리      | Git, GitHub                              |
-| 협업 도구      | Confluence, Jira, Slack                 |
-
+| 분류           | 사용 기술                                      |
+|----------------|------------------------------------------------|
+| 개발 환경      | ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white) |
+| 언어           | ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
+| 서버 및 백엔드 | ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white) |
+| 데이터베이스   | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white) |
+| 형상 관리      | ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) |
+| 협업 도구      | ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat&logo=confluence&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white) ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=slack&logoColor=white) |
 
 
 ## 5. System Design
