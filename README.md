@@ -173,26 +173,30 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 
 #### 5.5.1.1 Default
 ![Admin Default](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Admin%20Default.png)
-#### 5.5.1.2 RFID Register and Browse
-![RFID Register and Browse](link)
+#### 5.5.1.2 RFID check
+![RFID Check](link)
+![RFID Check Duplicate](link)
+#### 5.5.1.3 Form Check
+![Form Check](link)
+#### 5.5.1.4 Register
+![Register](link)
 #### 5.5.1.3 Register Initialize
-![RFID Register Initialize](link)
-#### 5.5.1.4 Duplicate Register
-![Duplicate Register](link)
+![Register Initialize](link)
+
 
 
 ### 5.5.2 COVA Jr Control
 
 #### 5.5.2.1 Default
-![Control Default](link)
+![Control Default](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Control%20Default.png)
 #### 5.5.2.2 Door Open
-![Door Open](link)
+![Door Open](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Door%20Open.png)
 #### 5.5.2.3 Engine Start
-![Engine Start](link)
+![Engine Start](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Engine%20Start.png)
 #### 5.5.2.3 Headlight On
-![Headlight On](link)
+![Headlight On](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Headlight%20On.png)
 #### 5.5.2.4 Reverse
-![Reverse](link)
+![Reverse](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Reverse.png)
 
 
 
