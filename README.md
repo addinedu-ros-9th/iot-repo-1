@@ -6,10 +6,9 @@
 
 
 ## 📽️ 시연 영상  
-### 사용자 등록
-[User register](link)
-### 사용자 인증 및 주행
-[User Authentification](link)
+https://youtu.be/b2M4o_Ry8Ds
+https://www.youtube.com/watch?v=b2M4o_Ry8Ds
+[![COVA](https://img.youtube.com/vi/b2M4o_Ry8Ds/0.jpg)](https://www.youtube.com/watch?v=b2M4o_Ry8Ds)
 
 
 
