@@ -183,7 +183,7 @@ COVA는 운전자 인증과 상태 확인을 바탕으로 차량의 **안전한 
 ![Register Success](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Register%20Success.png)
 ![Register Fail](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Register%20Fail.png)
 #### 5.5.1.3 Register Initialize
-![Register Initialize]([link](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Register%20Initialize.png)
+![Register Initialize](https://github.com/addinedu-ros-9th/iot-repo-1/blob/main/images/Register%20Initialize.png)
 
 
 
