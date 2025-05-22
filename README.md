@@ -7,7 +7,8 @@
 
 
 ## 📽️ 시연 영상  
-[demo](https://youtu.be/b2M4o_Ry8Ds?si=9G2rbBmHO6FyefWP)
+[![demo](https://github.com/addinedu-ros-9th/iot-repo-1/raw/main/images/car.png)](https://youtu.be/b2M4o_Ry8Ds?si=9G2rbBmHO6FyefWP)
+
 
 
 
